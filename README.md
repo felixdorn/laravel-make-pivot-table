@@ -17,7 +17,12 @@ composer require felixdorn/laravel-make-pivot-table
 ```
 
 ## Usage
-// Usage goes here
+```
+php artisan make:pivot [first_table] [second_table]
+```
+
+You don't have to put them in alphabetical order necessarily as we sort them anyway.
+
 
 ## Testing
 ```bash
