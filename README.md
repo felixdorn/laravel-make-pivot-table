@@ -1,4 +1,4 @@
-# laravel-make-pivot-table for Laravel                 
+# `make:pivot` for Laravel                 
 
 [![Tests](https://github.com/felixdorn/laravel-make-pivot-table/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-make-pivot-table/actions/workflows/tests.yml)
 [![Formats](https://github.com/felixdorn/laravel-make-pivot-table/actions/workflows/formats.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-make-pivot-table/actions/workflows/formats.yml)
