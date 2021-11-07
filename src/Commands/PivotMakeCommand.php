@@ -4,6 +4,7 @@ namespace Felix\MakePivotTable\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Support\Str;
+use Symfony\Component\Console\Input\InputArgument;
 
 class PivotMakeCommand extends GeneratorCommand
 {
@@ -52,9 +53,9 @@ class PivotMakeCommand extends GeneratorCommand
     protected function getTableNamesFromInput(): array
     {
         return [
-            /* @phpstan-ignore-next-line  */
+            /* @phpstan-ignore-next-line */
             strtolower($this->argument('first_table')),
-            /* @phpstan-ignore-next-line  */
+            /* @phpstan-ignore-next-line */
             strtolower($this->argument('second_table')),
         ];
     }
@@ -77,5 +78,13 @@ class PivotMakeCommand extends GeneratorCommand
         sort($tables);
 
         return $tables;
+    }
+
+    protected function getArguments(): array
+    {
+        return [
+            ['first_table', InputArgument::REQUIRED, 'The name of the first table.'],
+            ['second_table', InputArgument::REQUIRED, 'The name of the second table.'],
+        ];
     }
 }
