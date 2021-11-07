@@ -1,10 +1,10 @@
-# :name for Laravel                 
+# laravel-make-pivot-table for Laravel                 
 
-[![Tests](https://github.com/felixdorn/:name/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/felixdorn/:name/actions/workflows/tests.yml)
-[![Formats](https://github.com/felixdorn/:name/actions/workflows/formats.yml/badge.svg?branch=master)](https://github.com/felixdorn/:name/actions/workflows/formats.yml)
-[![Version](https://poser.pugx.org/felixdorn/:name/version)](//packagist.org/packages/felixdorn/:name)
-[![Total Downloads](https://poser.pugx.org/felixdorn/:name/downloads)](//packagist.org/packages/felixdorn/:name)
-[![License](https://poser.pugx.org/felixdorn/:name/license)](//packagist.org/packages/felixdorn/:name)
+[![Tests](https://github.com/felixdorn/laravel-make-pivot-table/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-make-pivot-table/actions/workflows/tests.yml)
+[![Formats](https://github.com/felixdorn/laravel-make-pivot-table/actions/workflows/formats.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-make-pivot-table/actions/workflows/formats.yml)
+[![Version](https://poser.pugx.org/felixdorn/laravel-make-pivot-table/version)](//packagist.org/packages/felixdorn/laravel-make-pivot-table)
+[![Total Downloads](https://poser.pugx.org/felixdorn/laravel-make-pivot-table/downloads)](//packagist.org/packages/felixdorn/laravel-make-pivot-table)
+[![License](https://poser.pugx.org/felixdorn/laravel-make-pivot-table/license)](//packagist.org/packages/felixdorn/laravel-make-pivot-table)
 
 ## Installation
 
@@ -13,7 +13,7 @@
 You can install the package via composer:
 
 ```bash
-composer require felixdorn/:name
+composer require felixdorn/laravel-make-pivot-table
 ```
 
 ## Usage
@@ -24,4 +24,4 @@ composer require felixdorn/:name
 composer test
 ```
 
-**:name** was created by **[Félix Dorn](https://twitter.com/afelixdorn)** under the **[MIT license](https://opensource.org/licenses/MIT)**.
+**laravel-make-pivot-table** was created by **[Félix Dorn](https://twitter.com/afelixdorn)** under the **[MIT license](https://opensource.org/licenses/MIT)**.

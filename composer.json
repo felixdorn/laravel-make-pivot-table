@@ -1,6 +1,6 @@
 {
-    "name": "felixdorn/:name",
-    "description": ":description",
+    "name": "felixdorn/laravel-make-pivot-table",
+    "description": "An artisan command to create a pivot table with Laravel.",
     "license": "MIT",
     "authors": [
         {
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Felix\\:namespace\\": "src/"
+            "Felix\\MakePivotTable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Felix\\:namespace\\Tests\\": "tests/"
+            "Felix\\MakePivotTable\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
@@ -44,5 +44,12 @@
             "@test:types",
             "@test:unit"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Felix\\MakePivotTable\\MakePivotServiceProvider"
+            ]
+        }
     }
 }
