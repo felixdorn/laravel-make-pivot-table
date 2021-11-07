@@ -33,7 +33,7 @@ class PivotMakeCommand extends GeneratorCommand
 
     protected function getStub(): string
     {
-        return __DIR__ . '/../stubs/pivot.stub';
+        return __DIR__ . '/../../stubs/pivot.stub';
     }
 
     private function getPivotTableName(): string
