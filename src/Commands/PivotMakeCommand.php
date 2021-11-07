@@ -80,6 +80,7 @@ class PivotMakeCommand extends GeneratorCommand
         return $tables;
     }
 
+    /* @phpstan-ignore-next-line  */
     protected function getNameInput()
     {
     }
