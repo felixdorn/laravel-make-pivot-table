@@ -54,9 +54,9 @@ class PivotMakeCommand extends GeneratorCommand
     {
         return [
             /* @phpstan-ignore-next-line */
-            strtolower($this->argument('first_table')),
+            Str::plural(strtolower($this->argument('first_table'))),
             /* @phpstan-ignore-next-line */
-            strtolower($this->argument('second_table')),
+            Str::plural(strtolower($this->argument('second_table'))),
         ];
     }
 

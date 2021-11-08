@@ -8,8 +8,8 @@ class {{class}} extends Migration
     public function up()
     {
         Schema::create('{{pivotTableName}}', function (Blueprint $table) {
-            $table->foreignId('{{columnOne}}')->references('id')->on('{{tableOne}}')->cascadeOnDelete();
-            $table->foreignId('{{columnTwo}}')->references('id')->on('{{tableTwo}}')->cascadeOnDelete();
+            $table->foreignId('{{columnOne}}_id')->references('id')->on('{{tableOne}}')->cascadeOnDelete();
+            $table->foreignId('{{columnTwo}}_id')->references('id')->on('{{tableTwo}}')->cascadeOnDelete();
         });
     }
 
