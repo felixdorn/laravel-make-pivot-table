@@ -19,7 +19,7 @@ jobs:
       uses: actions/cache@v1
       with:
         path: ~/.composer/cache/files
-        key: composer-${{ hashFiles('composer.json') }}
+        key: php-composer-${{ hashFiles('composer.json') }}
 
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
@@ -28,7 +28,7 @@ jobs:
         extensions: dom, mbstring, zip
         
     - name: Install Composer dependencies
-      run: composer update --${{ matrix.dependency-version }} --no-interaction --prefer-dist
+      run: composer update --prefer-stable --no-interaction --prefer-dist
 
     - name: Coding Style Checks
       run: composer test:lint
